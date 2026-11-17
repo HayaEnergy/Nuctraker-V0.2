@@ -1,0 +1,5 @@
+# Additional dependency for correct Europe/Paris handling on Windows,
+# including the October DST switch and days with 23/25 hours.
+tzdata>=2026.2
+# The existing v3/original Nuctracker requirements (pymongo, requests, pandas,
+# python-dotenv, numpy, holidays, statsmodels, etc.) remain required.

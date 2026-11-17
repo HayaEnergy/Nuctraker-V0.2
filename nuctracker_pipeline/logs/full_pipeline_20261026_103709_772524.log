@@ -1,0 +1,9 @@
+[2026-10-26 10:37:13] [ETAPE 1/6] Verification de la configuration et des acces RTE / MongoDB / Datawrapper
+[2026-10-26 10:37:19] [ETAPE 2/6] Synchronisation des nouvelles publications d indisponibilites RTE (checkpoint)
+[RTE] 128 total records, 67 nuclear; 36 nuclear versions to add. Excluded 61 other-fuel records. Audit: outputs_diagnostic\auto_rte_pub_20261026_093722_638866.csv
+[RTE] 69 total records, 48 nuclear; 29 nuclear versions to add. Excluded 21 other-fuel records. Audit: outputs_diagnostic\auto_rte_pub_20261026_093725_929705.csv
+[2026-10-26 10:37:27] [ETAPE 3/6] Mise a jour des jours COMPLETS de production reelle RTE
+[PRODUCTION] Debut choisi: 2026-10-25; periode effective: 2026-10-13 au 2026-10-25 (recouvrement conserve pour les corrections tardives RTE)
+[PRODUCTION] RTE calendar days 2026-10-13 to 2026-10-25: 13 complete, 3 add/update, 0 trailing unavailable. Report: outputs_diagnostic\production_rte_20261026_093731_287301.csv
+[PRODUCTION] Pre-write backup: backups_production_auto\production_auto_before_20261026_093731_290413.json
+[PRODUCTION] Committed 3 daily documents to data.nuclear_production_auto_daily
